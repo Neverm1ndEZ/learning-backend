@@ -1,24 +1,27 @@
 {
-	"name": "project",
-	"version": "1.0.0",
-	"type": "module",
-	"main": "index.js",
-	"scripts": {
-		"dev": "nodemon src/index.js"
-	},
-	"keywords": [
-		"js",
-		"backend"
-	],
-	"author": "mihir suman",
-	"license": "ISC",
-	"description": "",
-	"dependencies": {
-		"express": "^4.21.2",
-		"mongoose": "^8.9.2",
-		"nodemon": "^3.1.9"
-	},
-	"devDependencies": {
-		"prettier": "^3.4.2"
-	}
+  "name": "project",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "keywords": [
+    "js",
+    "backend"
+  ],
+  "author": "mihir suman",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.2",
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
 }
